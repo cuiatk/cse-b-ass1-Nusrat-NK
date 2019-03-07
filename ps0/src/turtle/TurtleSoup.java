@@ -170,19 +170,27 @@ public class TurtleSoup {
      * @param turtle the turtle context
      */
     public static void drawPersonalArt(Turtle turtle, int sidelength) {
-    	//PenColor pencolor = null;
-    	//PenColor[] arr= {pencolor.CYAN,pencolor.GREEN,pencolor.RED,pencolor.MAGENTA,pencolor.BLACK};
-    	//turtle.turn(10);
-    	//turtle.color(arr[0]); 
-    	//turtle.forward(sidelength);
-    	//for(int i = 1; i < 5; i++)
-    	//{
-    		//turtle.turn(144);
-            //turtle.color(arr[i]);                    
-    		//turtle.forward(sidelength);
-    	//}
-        //throw new RuntimeException("implement me!");
-    	turtle.turn(240);
+    	
+    	//To Draw Star
+    	
+    	
+    /*	PenColor pencolor = null;
+    	PenColor[] arr= {pencolor.CYAN,pencolor.GREEN,pencolor.RED,pencolor.MAGENTA,pencolor.BLACK};
+    	turtle.turn(10);
+    	turtle.color(arr[0]); 
+    	turtle.forward(sidelength);
+    	for(int i = 1; i < 5; i++)
+    	{
+    		turtle.turn(144);
+            turtle.color(arr[i]);                    
+    		turtle.forward(sidelength);
+    	}*/
+    	
+    	
+        //To Draw Star Boundary
+    	
+    	
+    /*	turtle.turn(240);
     	turtle.color(PenColor.RED);
     	turtle.forward(100);
     	turtle.turn(235);
@@ -211,14 +219,87 @@ public class TurtleSoup {
     	turtle.forward(110);
     	turtle.turn(230);
     	turtle.color(PenColor.YELLOW);
-    	turtle.forward(113);
+    	turtle.forward(113);*/
+    	
+    	//OR
+    	
+    	
+    	
+    /*	turtle.turn(60);
+    	turtle.color(PenColor.RED);
+    	turtle.forward(60);
+    	turtle.turn(60);
+    	turtle.color(PenColor.BLACK);
+    	turtle.forward(60);
+    	turtle.turn(60);
+    	turtle.color(PenColor.BLUE);
+    	turtle.forward(60);
+    	turtle.turn(60);
+    	turtle.color(PenColor.CYAN);
+    	turtle.forward(60);
+    	turtle.turn(60);
+    	turtle.color(PenColor.GRAY);
+    	turtle.forward(60);
+    	turtle.turn(60);
+    	turtle.color(PenColor.GREEN);
+    	turtle.forward(60);
+    	turtle.turn(30);
+    	turtle.color(PenColor.MAGENTA);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.ORANGE);
+    	turtle.forward(35);
+    	turtle.turn(0);
+    	turtle.color(PenColor.PINK);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.YELLOW);
+    	turtle.forward(35);
+    	turtle.turn(0);
+    	turtle.color(PenColor.RED);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.BLACK);
+    	turtle.forward(35);
+    	turtle.turn(0);
+    	turtle.color(PenColor.CYAN);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.GRAY);
+    	turtle.forward(35);
+    	turtle.turn(0);
+    	turtle.color(PenColor.GREEN);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.MAGENTA);
+    	turtle.forward(35);
+    	turtle.turn(0);
+    	turtle.color(PenColor.MAGENTA);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.ORANGE);
+    	turtle.forward(35);
+    	turtle.turn(60);
+    	turtle.color(PenColor.PINK);
+    	turtle.forward(105);
+    	turtle.turn(150);
+    	turtle.color(PenColor.YELLOW);
+    	turtle.forward(120);
+    	turtle.turn(210);
+    	turtle.color(PenColor.BLACK);
+    	turtle.forward(105);
+    	turtle.turn(210);
+    	turtle.color(PenColor.BLUE);
+    	turtle.forward(120);
+    	*/
+    	
     	
     }
 
     /**
      * Main method.
      * 
-     * This is the method that runs when you run "java TurtleSoup".
+     * This is the method that runs when you run "java TurtleSoup"
      * 
      * @param args unused
      */
@@ -226,15 +307,14 @@ public class TurtleSoup {
         DrawableTurtle turtle = new DrawableTurtle();
         
         	
-    //   drawSquare(turtle, 150);
-
-        // draw the window
-       // turtle.draw();
-       
-     // drawRegularPolygon(turtle,5,100);				 // 8 for star
-        drawPersonalArt(turtle, 150);
- 
+  
         
+       
+     // drawRegularPolygon(turtle,5,100);				
+        drawPersonalArt(turtle, 150);
+        // turtle.draw();
+ 
+        //   drawSquare(turtle, 150);
       turtle.draw();
     //    double sides=5.33;
      //   System.out.println(Math.round(sides));
